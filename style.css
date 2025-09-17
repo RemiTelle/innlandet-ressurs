@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background: #004080;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto 5rem auto; /* 5rem nederst for å ikke skjule innhold bak footer */
+    padding: 1rem;
+  }
+  
+  section {
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background: #eee;
+    font-size: 0.9rem;
+    border-top: 1px solid #ccc;
+  }
+  
+  
+  
