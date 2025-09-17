@@ -3,33 +3,47 @@ html, body {
     padding: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #f9f9f9;
-    color: #333;
   }
-  
-  header {
-    background: #004080;
-    color: white;
-    padding: 1.5rem;
-    text-align: center;
-  }
+
+
+
   
   main {
-    max-width: 800px;
-    margin: 2rem auto 5rem auto; /* 5rem nederst for å ikke skjule innhold bak footer */
+    max-width: 1000px;
+    margin: auto;
     padding: 1rem;
   }
   
-  section {
-    background: white;
-    border-radius: 6px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    margin-bottom: 2rem;
-    padding: 1rem;
-  }
-  
+
   h1, h2 {
     margin-top: 0;
+  }
+
+  .image-logo img {
+    max-width: 10rem;
+    height: auto;
+    display: flex;
+  }
+
+  .image-text {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem; /* space between sections */
+  }
+  
+  .image-text img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .image-text .text {
+    max-width: 600px;
+  }
+  
+  /* flip image/text order for every 2nd section */
+  .image-text:nth-of-type(odd) {
+    flex-direction: row-reverse;
   }
   
   footer {
@@ -41,8 +55,8 @@ html, body {
     padding: 1rem;
     background: #eee;
     font-size: 0.9rem;
-    border-top: 1px solid #ccc;
   }
   
+
   
   

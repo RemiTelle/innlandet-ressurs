@@ -5,25 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Innlandet Ressurs AS</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
 </head>
 
 
 <body>
-    <header>
-      <h1>Innlandet Ressurs AS</h1>
-      <p>Din partner for bemanning og varetelling</p>
-    </header>
+    <header class="navbar">
+        <a href="/" class="logo">
+          <img src="logoWhite.png" alt="Innlandet Ressurs logo">
+        </a>
+        
+        <nav class="nav-links">
+          <a class="nav-link selected" href="/">Tjenester</a>
+          <a class="nav-link" href="./kontakt/">Kontakt</a>
+        </nav>
+      
+        <button class="hamburger" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </header>
+      
   
     <main>
-      <section>
-        <h1>🚧 Under konstruksjon 🚧</h1>
-        <p>Vi jobber vi med å lage noe spennende. Følg med!</p>
-      </section>
-  
+        <section class="image-logo">
+            <h1>INNLANDET RESSURS AS</h1>
+ 
+            <p>Din partner for bemanning og varetelling</p>
+        </section>
+        <section class="image-text">
+            <img src="placeholder.png" alt="Company picture">
+            <div class="text">
+              <h2>Varetelling</h2>
+              <p>Vi tilbyr nøyaktig og effektiv varetelling for butikker, lager og grossister. 
+                Med erfarne medarbeidere og moderne metoder sikrer vi korrekt oversikt over varelageret, 
+                slik at du kan ta bedre beslutninger og spare tid. </p>
+            </div>
+          </section>
+
+          <section class="image-text">
+            <img src="placeholder.png" alt="Company picture">
+            <div class="text">
+              <h2>Bemanning</h2>
+              <p>Lorum ipsum Bemanning</p>
+            </div>
+          </section>
+
+          <section class="image-text">
+            <img src="placeholder.png" alt="Company picture">
+            <div class="text">
+              <h2>Events</h2>
+              <p>Lorum ipsum Events</p>
+            </div>
+          </section>
+
     </main>
   
     <footer>
-      &copy; 2025 Innlandet Ressurs AS
+      <a href="tel:9444350">Tlf: 944 44 350</a>
+      <a href="mailto:remi.telle01@gmail.com">remi.telle01@gmail.com</a>
     </footer>
+    <script src="nav.js"></script>
   </body>
   
