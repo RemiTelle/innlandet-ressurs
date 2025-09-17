@@ -3,11 +3,12 @@ html, body {
     padding: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background: linear-gradient(
+        #b3b3b3 0%,
+        #ffffff 100%
+      );
   }
 
-
-
-  
   main {
     max-width: 1000px;
     margin: auto;
@@ -19,10 +20,35 @@ html, body {
     margin-top: 0;
   }
 
-  .image-logo img {
-    max-width: 10rem;
-    height: auto;
+  .footer {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #181f2d;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .footer-content a {
+    margin: 0 0.3rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+
+  .paper-section {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .image-logo p {
+    margin-bottom: 8rem;
+
   }
 
   .image-text {
@@ -46,16 +72,6 @@ html, body {
     flex-direction: row-reverse;
   }
   
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
-    background: #eee;
-    font-size: 0.9rem;
-  }
   
 
   
