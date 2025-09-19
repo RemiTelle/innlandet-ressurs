@@ -99,6 +99,7 @@ main {
     align-items:center;
     text-decoration:none;
     color:inherit;
+    margin-bottom:2rem;
   }
   
   
@@ -109,6 +110,7 @@ main {
     }
     .image-text .text { order: 1; max-width: none; }
     .image-text img  { order: 2; max-width: 100%; height: auto; }
+
     .image-text:nth-of-type(odd) { flex-direction: column; }
   }
   
